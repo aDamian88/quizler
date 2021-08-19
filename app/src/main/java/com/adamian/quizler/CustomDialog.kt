@@ -65,6 +65,35 @@ class CustomDialog(context: Context) : Dialog(context) {
             }
         }
 
+        fun fourChoices(context: Context, choiceOne: String, choiceTwo: String, choiceThree: String, choiceFour: String) {
+            val dialog = Dialog(context, style.Theme_Black_NoTitleBar_Fullscreen)
+            dialog.requestWindowFeature(Window.FEATURE_NO_TITLE)
+            dialog.setCancelable(true)
+            dialog.setContentView(R.layout.quizler_dialog_four_choices)
+            dialog.show()
+
+            val rgChoices = dialog.findViewById<RadioGroup>(R.id.rg_choices)
+
+            val rbOne = dialog.findViewById<RadioButton>(R.id.rb_choice_one)
+            rbOne.setText(choiceOne)
+
+            val rbTwo = dialog.findViewById<RadioButton>(R.id.rb_choice_two)
+            rbTwo.setText(choiceTwo)
+
+            val rbThree = dialog.findViewById<RadioButton>(R.id.rb_choice_three)
+            rbThree.setText(choiceThree)
+
+            val rbFour = dialog.findViewById<RadioButton>(R.id.rb_choice_four)
+            rbFour.setText(choiceFour)
+
+            val btClose = dialog.findViewById<Button>(R.id.bt_close)
+            btClose.setOnClickListener {
+                val radio: RadioButton = dialog.findViewById(rgChoices.checkedRadioButtonId)
+                Log.d(TAG, "twoChoices: ${radio.text}")
+
+            }
+        }
+
 
     }
 }
