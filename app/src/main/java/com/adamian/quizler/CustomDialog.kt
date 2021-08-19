@@ -26,10 +26,10 @@ class CustomDialog(context: Context) : Dialog(context) {
             val rgChoices = dialog.findViewById<RadioGroup>(R.id.rg_choices)
 
             val rbOne = dialog.findViewById<RadioButton>(R.id.rb_choice_one)
-            rbOne.setText(choiceOne)
+            rbOne.text = choiceOne
 
             val rbTwo = dialog.findViewById<RadioButton>(R.id.rb_choice_two)
-            rbTwo.setText(choiceTwo)
+            rbTwo.text = choiceTwo
 
             val btClose = dialog.findViewById<Button>(R.id.bt_close)
             btClose.setOnClickListener {
@@ -49,13 +49,13 @@ class CustomDialog(context: Context) : Dialog(context) {
             val rgChoices = dialog.findViewById<RadioGroup>(R.id.rg_choices)
 
             val rbOne = dialog.findViewById<RadioButton>(R.id.rb_choice_one)
-            rbOne.setText(choiceOne)
+            rbOne.text = choiceOne
 
             val rbTwo = dialog.findViewById<RadioButton>(R.id.rb_choice_two)
-            rbTwo.setText(choiceTwo)
+            rbTwo.text = choiceTwo
 
             val rbThree = dialog.findViewById<RadioButton>(R.id.rb_choice_three)
-            rbThree.setText(choiceThree)
+            rbThree.text = choiceThree
 
             val btClose = dialog.findViewById<Button>(R.id.bt_close)
             btClose.setOnClickListener {
@@ -75,16 +75,16 @@ class CustomDialog(context: Context) : Dialog(context) {
             val rgChoices = dialog.findViewById<RadioGroup>(R.id.rg_choices)
 
             val rbOne = dialog.findViewById<RadioButton>(R.id.rb_choice_one)
-            rbOne.setText(choiceOne)
+            rbOne.text = choiceOne
 
             val rbTwo = dialog.findViewById<RadioButton>(R.id.rb_choice_two)
-            rbTwo.setText(choiceTwo)
+            rbTwo.text = choiceTwo
 
             val rbThree = dialog.findViewById<RadioButton>(R.id.rb_choice_three)
-            rbThree.setText(choiceThree)
+            rbThree.text = choiceThree
 
             val rbFour = dialog.findViewById<RadioButton>(R.id.rb_choice_four)
-            rbFour.setText(choiceFour)
+            rbFour.text = choiceFour
 
             val btClose = dialog.findViewById<Button>(R.id.bt_close)
             btClose.setOnClickListener {
