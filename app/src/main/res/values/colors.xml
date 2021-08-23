@@ -7,4 +7,10 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    // vintage
+    <color name="vintageLilium">#E06A4E</color>
+    <color name="vintageUpon">#DEB853</color>
+    <color name="vintageEggs">#E2D9A2</color>
+    <color name="vintageSky">#789F8A</color>
+    <color name="vintageNordman">#0A373A</color>
 </resources>
