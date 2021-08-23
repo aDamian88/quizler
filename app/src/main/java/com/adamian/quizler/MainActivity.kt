@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         Log.d(TAG, "onCreate: ${"inside open"}")
-        CustomDialog.twoChoices(this,"tonino","carotone")
+        CustomDialog.fourChoices(this,"Πόσες υπολογιστικές μηχανές περιέχει κατά μέσο όρο ένα σύγχρονο μεσοαστικό σπίτι;","Μία","2 με 5","Περίπου 10","Πάνω από 60")
 
     }
 }

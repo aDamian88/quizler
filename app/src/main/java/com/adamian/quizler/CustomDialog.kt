@@ -8,6 +8,7 @@ import android.view.Window
 import android.widget.Button
 import android.widget.RadioButton
 import android.widget.RadioGroup
+import android.widget.TextView
 
 
 class CustomDialog(context: Context) : Dialog(context) {
@@ -65,12 +66,15 @@ class CustomDialog(context: Context) : Dialog(context) {
             }
         }
 
-        fun fourChoices(context: Context, choiceOne: String, choiceTwo: String, choiceThree: String, choiceFour: String) {
+        fun fourChoices(context: Context, question: String, choiceOne: String, choiceTwo: String, choiceThree: String, choiceFour: String) {
             val dialog = Dialog(context, style.Theme_Black_NoTitleBar_Fullscreen)
             dialog.requestWindowFeature(Window.FEATURE_NO_TITLE)
             dialog.setCancelable(true)
             dialog.setContentView(R.layout.quizler_dialog_four_choices)
             dialog.show()
+
+            val questionText = dialog.findViewById<TextView>(R.id.tv_dialog_title)
+            questionText.text = question
 
             val rgChoices = dialog.findViewById<RadioGroup>(R.id.rg_choices)
 
