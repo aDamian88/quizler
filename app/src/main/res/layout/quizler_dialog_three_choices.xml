@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
-    android:background="#ffcdff"
+    android:background="@color/vintageSky"
     android:orientation="vertical">
 
     <TextView
@@ -14,7 +14,7 @@
         android:layout_weight="0.10"
         android:layout_margin="15dp"
         android:text="2 choices dialog"
-        android:textColor="#ffff"
+        android:textColor="@color/vintageUpon"
         android:gravity="center"
         android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -47,16 +47,22 @@
                     android:id="@+id/rb_choice_one"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/vintageUpon"
+                    android:textColorHint="@color/vintageUpon"
                     android:text="1" />
                 <RadioButton
                     android:id="@+id/rb_choice_two"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/vintageUpon"
+                    android:textColorHint="@color/vintageUpon"
                     android:text="2" />
                 <RadioButton
                     android:id="@+id/rb_choice_three"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/vintageUpon"
+                    android:textColorHint="@color/vintageUpon"
                     android:text="3" />
             </RadioGroup>
 
@@ -73,10 +79,10 @@
         android:layout_weight="0.10"
         android:layout_gravity="center_horizontal"
         android:gravity="center_horizontal"
-        android:background="#000000"
         android:text="OK"
         android:textSize="50sp"
-        android:textColor="#ffffff"
+        android:textColor="@color/vintageUpon"
+        app:backgroundTint="@color/vintageNordman"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
