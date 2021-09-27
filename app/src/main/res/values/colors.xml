@@ -13,4 +13,8 @@
     <color name="vintageEggs">#E2D9A2</color>
     <color name="vintageSky">#789F8A</color>
     <color name="vintageNordman">#0A373A</color>
+
+    // Green/Purple
+    <color name="greenPalette">#ccff8c</color>
+    <color name="purplePalette">#360454</color>
 </resources>
