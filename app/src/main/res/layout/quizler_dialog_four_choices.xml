@@ -4,7 +4,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
-    android:background="@color/greenPalette"
     android:orientation="vertical">
 
     <TextView
@@ -14,7 +13,6 @@
         android:layout_weight="0.30"
         android:layout_margin="15dp"
         android:text="2 choices dialog"
-        android:textColor="@color/purplePalette"
         android:gravity="center"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -47,32 +45,24 @@
                     android:id="@+id/rb_choice_one"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/purplePalette"
-                    android:textColorHint="@color/purplePalette"
                     android:textSize="25sp"
                     android:text="1" />
                 <RadioButton
                     android:id="@+id/rb_choice_two"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/purplePalette"
-                    android:textColorHint="@color/purplePalette"
                     android:textSize="25sp"
                     android:text="2" />
                 <RadioButton
                     android:id="@+id/rb_choice_three"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/purplePalette"
-                    android:textColorHint="@color/purplePalette"
                     android:textSize="25sp"
                     android:text="3" />
                 <RadioButton
                     android:id="@+id/rb_choice_four"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/purplePalette"
-                    android:textColorHint="@color/purplePalette"
                     android:textSize="25sp"
                     android:text="4" />
             </RadioGroup>
@@ -90,8 +80,6 @@
         android:layout_weight="0.10"
         android:text="OK"
         android:textSize="30sp"
-        android:textColor="@color/purplePalette"
-        app:backgroundTint="@color/vintageNordman"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
