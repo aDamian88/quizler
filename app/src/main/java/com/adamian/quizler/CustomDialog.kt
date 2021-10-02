@@ -36,7 +36,6 @@ class CustomDialog(context: Context) : Dialog(context) {
             btClose.setOnClickListener {
                 val radio: RadioButton = dialog.findViewById(rgChoices.checkedRadioButtonId)
                 Log.d(TAG, "twoChoices: ${radio.text}")
-
             }
         }
 
@@ -97,7 +96,6 @@ class CustomDialog(context: Context) : Dialog(context) {
 
             }
         }
-
 
     }
 }
